@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.menu-bar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.menu-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.menu-bar a:hover {
+    color: #66ccff; 
+}
+
+}
